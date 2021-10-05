@@ -1,2 +1,2 @@
 # optimax-prime
-Optimax Prime Podcast
+Optimax Prime Community
