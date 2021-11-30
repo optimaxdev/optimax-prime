@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+
+name: New issue to project
+
+on: [issues]
+jobs:
+  github-actions-automate-projects:
+    runs-on: ubuntu-latest
+    steps:
+    - name: add-to-the-project
+      uses: docker://takanabe/github-actions-automate-projects:v0.0.1
+      if: github.event_name == 'issues' && github.event.action == 'opened'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_PROJECT_URL: https://github.com/optimaxdev/optimax-prime/projects/1
+        GITHUB_PROJECT_COLUMN_NAME: Интересно будет обсудить
