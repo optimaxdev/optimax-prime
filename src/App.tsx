@@ -1,7 +1,8 @@
 import "./App.css";
-import { Calendar, Tag } from "antd";
+import { Calendar, Flex, Image, Tag, Typography } from "antd";
 import type { Dayjs } from "dayjs";
 import schedule from "./schedule.json";
+import avatar from './assets/optimax-prime-avatar.jpeg';
 
 const cellRender = (value: Dayjs) => {
   const date = schedule.dates.find(
@@ -29,6 +30,16 @@ const cellRender = (value: Dayjs) => {
 function App() {
   return (
     <>
+      <Flex align="flex-start" vertical>
+        <Flex align="center">
+          <Image src={avatar} width={50} />
+        <Typography.Title>Optimax Prime Breakfast</Typography.Title>
+        </Flex>
+        <Typography.Link href="https://meet.google.com/iaz-gyac-ihh" target="_blank">
+          Ссылка для подключения онлайн
+        </Typography.Link>
+      </Flex>
+
       <Calendar cellRender={cellRender} />
     </>
   );
