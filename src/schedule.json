@@ -1,6 +1,7 @@
 {
     "dates": [
         {"date": "2024-09-29", "tags": ["online"]},
+        {"date": "2024-10-6", "tags": ["online", "offline"]},
         {"date": "2024-10-13", "tags": ["online", "offline"]},
         {"date": "2024-10-27", "tags": ["online", "offline"]},
         {"date": "2024-11-10", "tags": ["online", "offline"]},
