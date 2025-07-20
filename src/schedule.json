@@ -124,6 +124,13 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2025-07-25",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
