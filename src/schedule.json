@@ -7,13 +7,6 @@
             ]
         },
         {
-            "date": "2024-10-03",
-            "tags": [
-                "online",
-                "offline"
-            ]
-        },
-        {
             "date": "2024-10-06",
             "tags": [
                 "online",
@@ -22,13 +15,6 @@
         },
         {
             "date": "2024-10-13",
-            "tags": [
-                "online",
-                "offline"
-            ]
-        },
-        {
-            "date": "2024-10-17",
             "tags": [
                 "online",
                 "offline"
@@ -155,6 +141,20 @@
         },
         {
             "date": "2025-08-29",
+            "tags": [
+                "online",
+                "offline"
+            ]
+        },
+        {
+            "date": "2025-10-03",
+            "tags": [
+                "online",
+                "offline"
+            ]
+        },
+        {
+            "date": "2025-10-17",
             "tags": [
                 "online",
                 "offline"
