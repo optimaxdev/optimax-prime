@@ -145,6 +145,20 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2025-10-03",
+            "tags": [
+                "online",
+                "offline"
+            ]
+        },
+        {
+            "date": "2025-10-17",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
