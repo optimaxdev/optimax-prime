@@ -41,7 +41,7 @@ function App() {
           <Typography.Title>Optimax Prime Breakfast</Typography.Title>
         </Flex>
         <Typography.Link
-          href="https://meet.google.com/iaz-gyac-ihh"
+          href="https://telemost.yandex.ru/j/16929976559513"
           target="_blank">
           Ссылка для подключения онлайн
         </Typography.Link>
