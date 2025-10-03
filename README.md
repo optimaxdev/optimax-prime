@@ -1,4 +1,49 @@
-# React + TypeScript + Vite
+# Optimax Prime Breakfast Calendar
+
+A React + TypeScript + Vite application that displays IT Evening event schedules on a calendar.
+
+## Features
+
+- Interactive calendar view
+- Event scheduling with online/offline tags
+- Russian locale support
+- Responsive design using Ant Design components
+
+## Development
+
+### Prerequisites
+
+- Node.js (v20 or higher)
+- Yarn or npm
+
+### Installation
+
+```bash
+yarn install
+# or
+npm install
+```
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+- `npm test` - Run unit tests
+- `npm run test:ui` - Run unit tests with UI
+- `npm run test:e2e` - Run E2E tests (requires Playwright browsers)
+
+## Testing
+
+This project includes comprehensive test coverage:
+
+- **Unit Tests**: Using Vitest and React Testing Library
+- **E2E Tests**: Using Playwright
+
+For detailed testing documentation, see [TESTING.md](./TESTING.md).
+
+## Original Template Info
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
