@@ -159,6 +159,12 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2025-11-02",
+            "tags": [
+                "online"
+            ]
         }
     ]
 }
