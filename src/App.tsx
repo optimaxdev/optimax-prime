@@ -4,7 +4,9 @@ import type { Dayjs } from "dayjs";
 import schedule from "./schedule.json";
 import avatar from "./assets/optimax-prime-avatar.jpeg";
 
-const cellRender = (value: Dayjs) => {
+// Exported for testing purposes
+// eslint-disable-next-line react-refresh/only-export-components
+export const cellRender = (value: Dayjs) => {
   const date = schedule.dates.find(
     ({ date }) => date === value.format("YYYY-MM-DD")
   );
