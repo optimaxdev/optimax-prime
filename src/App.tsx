@@ -31,10 +31,12 @@ const cellRender = (value: any) => {
     date.timezone
   );
   const localTime = meetingTime.local().format("HH:mm");
+  const userTimezone = dayjs.tz.guess();
 
   return (
     <div>
-      IT Evening ({localTime})
+      <div>IT Evening</div>
+      <div>{localTime} ({userTimezone})</div>
       <div>
         {date.tags.map((tag) => (
           <Tag
