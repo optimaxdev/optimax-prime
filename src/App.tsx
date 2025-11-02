@@ -22,7 +22,7 @@ const cellRender = (value: any) => {
     (d: ScheduleDate) => d.date === value.format("YYYY-MM-DD")
   );
 
-  if (!date) return null;
+  if (!date || !date.time || !date.timezone) return null;
 
   // Parse the time in the schedule's timezone and convert to user's local timezone
   const meetingTime = dayjs.tz(
