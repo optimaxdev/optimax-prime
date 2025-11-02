@@ -1,19 +1,40 @@
 import "./App.css";
 import { Calendar, Flex, Image, Tag, Typography } from "antd";
-import type { Dayjs } from "dayjs";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
 import schedule from "./schedule.json";
 import avatar from "./assets/optimax-prime-avatar.jpeg";
 
-const cellRender = (value: Dayjs) => {
+dayjs.extend(utc);
+dayjs.extend(timezone);
+
+interface ScheduleDate {
+  date: string;
+  time: string;
+  timezone: string;
+  tags: string[];
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const cellRender = (value: any) => {
   const date = schedule.dates.find(
-    ({ date }) => date === value.format("YYYY-MM-DD")
+    (d: ScheduleDate) => d.date === value.format("YYYY-MM-DD")
   );
 
   if (!date) return null;
 
+  // Parse the time in the schedule's timezone and convert to user's local timezone
+  const meetingTime = dayjs.tz(
+    `${date.date} ${date.time}`,
+    "YYYY-MM-DD HH:mm",
+    date.timezone
+  );
+  const localTime = meetingTime.local().format("HH:mm");
+
   return (
     <div>
-      IT Evening
+      IT Evening ({localTime})
       <div>
         {date.tags.map((tag) => (
           <Tag
