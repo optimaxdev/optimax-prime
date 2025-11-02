@@ -2,12 +2,16 @@
     "dates": [
         {
             "date": "2024-09-29",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online"
             ]
         },
         {
             "date": "2024-10-06",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -15,6 +19,8 @@
         },
         {
             "date": "2024-10-13",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -22,6 +28,8 @@
         },
         {
             "date": "2024-10-20",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -29,6 +37,8 @@
         },
         {
             "date": "2024-10-27",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -36,6 +46,8 @@
         },
         {
             "date": "2024-11-10",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -43,6 +55,8 @@
         },
         {
             "date": "2024-11-24",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -50,6 +64,8 @@
         },
         {
             "date": "2024-12-08",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -57,6 +73,8 @@
         },
         {
             "date": "2024-12-15",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -64,6 +82,8 @@
         },
         {
             "date": "2025-01-19",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -71,6 +91,8 @@
         },
         {
             "date": "2025-02-02",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -78,6 +100,8 @@
         },
         {
             "date": "2025-02-23",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -85,6 +109,8 @@
         },
         {
             "date": "2025-03-16",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -92,6 +118,8 @@
         },
         {
             "date": "2025-03-30",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -99,6 +127,8 @@
         },
         {
             "date": "2025-05-16",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -106,6 +136,8 @@
         },
         {
             "date": "2025-05-30",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -113,6 +145,8 @@
         },
         {
             "date": "2025-06-13",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -120,6 +154,8 @@
         },
         {
             "date": "2025-06-27",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -127,6 +163,8 @@
         },
         {
             "date": "2025-07-25",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -134,6 +172,8 @@
         },
         {
             "date": "2025-08-08",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -141,6 +181,8 @@
         },
         {
             "date": "2025-08-29",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -148,6 +190,8 @@
         },
         {
             "date": "2025-10-03",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -155,6 +199,8 @@
         },
         {
             "date": "2025-10-17",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online",
                 "offline"
@@ -162,6 +208,8 @@
         },
         {
             "date": "2025-11-02",
+            "time": "11:00",
+            "timezone": "Asia/Dubai",
             "tags": [
                 "online"
             ]
