@@ -11,6 +11,10 @@ import { useState, useEffect } from "react";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
+// Constants
+const MOBILE_BREAKPOINT = 768;
+const PAST_EVENTS_THRESHOLD_DAYS = 1;
+
 interface ScheduleDate {
   date: string;
   time: string;
@@ -67,9 +71,9 @@ function App() {
 
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
       // Default to list view on mobile
-      if (window.innerWidth < 768) {
+      if (window.innerWidth < MOBILE_BREAKPOINT) {
         setViewMode("list");
       }
     };
@@ -95,7 +99,7 @@ function App() {
         userTimezone: dayjs.tz.guess(),
       };
     })
-    .filter((event) => event.localTime.isAfter(dayjs().subtract(1, 'day')))
+    .filter((event) => event.localTime.isAfter(dayjs().subtract(PAST_EVENTS_THRESHOLD_DAYS, 'day')))
     .sort((a, b) => a.localTime.diff(b.localTime));
 
   return (

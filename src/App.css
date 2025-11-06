@@ -19,6 +19,7 @@
 }
 
 /* Mobile-specific styles */
+/* Breakpoint matches MOBILE_BREAKPOINT constant in App.tsx */
 @media (max-width: 768px) {
   #root {
     padding: 1rem;
