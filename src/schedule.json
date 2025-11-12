@@ -213,6 +213,15 @@
             "tags": [
                 "online"
             ]
+        },
+        {
+            "date": "2025-11-14",
+            "time": "19:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
