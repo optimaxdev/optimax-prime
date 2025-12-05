@@ -222,6 +222,15 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2025-12-12",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
