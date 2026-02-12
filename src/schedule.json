@@ -231,6 +231,15 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2026-02-13",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
