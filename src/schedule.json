@@ -240,6 +240,15 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2026-02-27",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
