@@ -258,6 +258,15 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2026-04-10",
+            "time": "18:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online",
+                "offline"
+            ]
         }
     ]
 }
