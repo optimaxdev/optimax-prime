@@ -267,6 +267,14 @@
                 "online",
                 "offline"
             ]
+        },
+        {
+            "date": "2026-05-17",
+            "time": "11:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online"
+            ]
         }
     ]
 }
