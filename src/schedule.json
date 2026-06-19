@@ -275,6 +275,14 @@
             "tags": [
                 "online"
             ]
+        },
+        {
+            "date": "2026-06-21",
+            "time": "10:00",
+            "timezone": "Asia/Dubai",
+            "tags": [
+                "online"
+            ]
         }
     ]
 }
